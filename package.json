@@ -1,0 +1,27 @@
+{
+  "name": "pm-app-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mela7475/APSB-PM-App-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mela7475/APSB-PM-App-react/issues"
+  },
+  "homepage": "https://github.com/mela7475/APSB-PM-App-react#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "express": "^4.17.1",
+    "msnodesqlv8": "^2.0.8",
+    "mssql": "^6.2.3",
+    "nodemon": "^2.0.6"
+  }
+}

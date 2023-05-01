@@ -1,0 +1,307 @@
+.card-min-height {
+  min-height: 400px !important;
+}
+
+.bg-dark-white {
+  background-color: #e4e5e6 !important;
+}
+
+.bg-light {
+  background-color: #EEEFF0 !important;
+}
+
+.bg-dark {
+  background-color: #22262b !important;
+}
+
+.bg-light-title {
+  background-color: #EEEFF0 !important;
+}
+
+.bg-purple {
+  background-color: #6610f2 !important;
+}
+
+.bg-form-box {
+  background-color: #4f5963 !important;
+}
+
+.bg-alert-success {
+  background-color: #28a745 !important;
+  color: #fff !important;
+}
+
+.bg-alert-error {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+}
+
+.text-form-color {
+  color: #cccccc !important;
+}
+
+.border-dark {
+  border-color: #c8ced3 !important;
+}
+
+.border-purple {
+  border-color: #4709aa !important;
+}
+
+.badge-purple {
+  color: #fff !important;
+  background-color: #4709aa !important;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#sidebar {
+  min-width: 175px;
+  max-width: 175px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* top layer */
+  z-index: 9999;
+  transition: all 0.3s;
+}
+
+.sidebar-sm {
+  min-width: 45px !important;
+  max-width: 45px !important;
+  font-size: 0;
+  transition: all 0.1s;
+}
+
+.sidebar-sm i {
+  font-size: large !important ;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+/* #sidebar-sm i {
+  font-size: initial !important;
+} */
+
+  #sidebar.active {
+      margin-left: -250px;
+  }
+
+  #sidebar .sidebar-header {
+      padding: 20px;
+  }
+
+  #sidebar ul.components {
+      padding: 20px 0;
+  }
+
+  #sidebar ul p {
+      color: #fff;
+      padding: 10px;
+  }
+
+  #sidebar ul li a {
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+  }
+
+  #sidebar ul li a:hover {
+      color: #fff;
+      background: #cf202f !important;
+  }
+
+  #sidebar ul li a:hover i {
+      color: #000 !important;
+  }
+
+  #sidebar .active {
+    color: #fff;
+    background: #cf202f;
+  }
+  
+  #sidebar .active i {
+    color: #2d3339 !important;
+  }
+
+
+#content {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #000;
+}
+
+.breadcrumb-item.active {
+  color: #0000;
+}
+
+.top-nav {
+  position: fixed !important;
+  width: 75%;
+  z-index: 1020;
+}
+
+.side-nav {
+  z-index: 1018;
+  width: 200px;
+  height: calc(100% - 100px);
+}
+
+.card-scroll {
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.edit-icon {
+  cursor: pointer !important;
+}
+
+.edit-icon:hover {
+  color: red !important;
+  cursor: pointer !important;
+}
+
+.clear-all-icon {
+  cursor: pointer !important;
+}
+
+.clear-all-icon:hover {
+  background-color: red !important;
+  cursor: pointer !important;
+}
+
+.clear-all-icon:hover i {
+  color: white !important;
+  cursor: pointer !important;
+}
+
+
+/******************************/
+/******** Dashboard *********/
+/******************************/
+.hover-bg--danger:hover {
+  background-color: #dc3545 !important;
+}
+
+  .hover-bg--danger:hover span {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+.hover-bg--warning:hover {
+  background-color: #ffc107 !important;
+}
+
+.hover-bg--primary:hover {
+  background-color: #257cc6 !important;
+}
+
+  .hover-bg--primary:hover span {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+.hover-bg--info:hover {
+  background-color: #17a2b8 !important;
+}
+
+  .hover-bg--info:hover span {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+.hover-bg--success:hover {
+  background-color: #28a745 !important;
+}
+
+.hover-bg--purple:hover {
+  background-color: #4709aa !important;
+}
+
+
+/************************************/
+/******** Scrollable Table *********/
+/***********************************/
+
+.list-group-scroll {
+  max-height: 500px !important;
+  margin-bottom: 10px !important;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+  cursor: pointer;
+}
+
+.list-hover:hover {
+ background-color: #eeeeee !important;
+}
+
+/************************************/
+/**** Date Picker Box ****/
+/************************************/
+
+.react-date-picker__inputGroup__input {
+  color: #f2f2f2 !important;
+}
+
+.react-date-picker__wrapper {
+  border: 0px !important;
+}
+
+.react-date-picker__inputGroup__input {
+  color: #000 !important;
+}
+
+/************************************/
+/********* Widths ************/
+/************************************/
+
+.w-2 {
+  width: 2%!important;
+}
+
+.w-5 {
+  width: 5%!important;
+}
+
+.w-10 {
+  width: 10%!important;
+}
+
+.w-12 {
+  width: 12%!important;
+}
+
+.w-35 { 
+  width: 35%!important;
+}
+
+/******************************/
+/******** Toggle Button *********/
+/******************************/
+
+.active-toggle {
+  transition: all 0.8s;
+  box-shadow: none !important;
+}
+
+.active-toggle:focus {
+  box-shadow: none !important;
+}
+
+.active-toggle:active {
+  box-shadow: none !important;
+}

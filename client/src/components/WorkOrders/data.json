@@ -1,0 +1,22 @@
+[
+    {
+        "status": "Data 1",
+        "count": 3
+    },
+    {
+        "status": "Data 2",
+        "count": 2
+    },
+    {
+        "status": "Data 3",
+        "count": 0
+    },
+    {
+        "status": "Data 4",
+        "count": 1
+    },
+    {
+        "status": "Data 5",
+        "count": 2
+    }
+]

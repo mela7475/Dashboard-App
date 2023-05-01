@@ -1,0 +1,28 @@
+[
+    {
+        "labels": ["School 1", "School 2", "School 3", "School 4", "School 5", "School 6" ],
+        "datasets": [
+            {     
+                "label": "School Results",
+                "backgroundColor": [
+                    "#dc3545",
+                    "#fd7e14",
+                    "#ffc107",
+                    "#28a745",
+                    "#007bff",
+                    "#6610f2"
+                ],
+                "hoverBackgroundColor": [
+                    "#981b27",
+                    "#b15102",
+                    "#b38600",
+                    "#19672b",
+                    "#004a99",
+                    "#4709aa"
+                ],
+                "borderColor": "#f2f2f2",
+                "data": [75, 59, 80, 60, 56, 45]
+            }
+        ]
+    }
+]
